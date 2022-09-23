@@ -1,0 +1,352 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+}
+
+header div {
+    display: flex;
+    background-color: white;
+    width: 87.7vw;
+    justify-content: space-between;
+}
+
+header div h2 {
+    margin: 23px 0px 23px 20px;
+}
+
+header div nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div nav a {
+    text-decoration: none;
+    color: #242424;
+    margin: 10px;
+}
+
+header div nav a:hover {
+    color: #37268c;
+    transition: 1s;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+header div nav a:not(:hover) {
+    color: #242424;
+    transition: 1s;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.firstMain {
+    width: 87.7vw;
+    height: 90vh;
+    background-color: white;
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsSpace {
+    width: 1305px;
+    height: 100%;
+    background-color: white;
+}
+
+.cardsSpace ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cardsSpace ul li {
+    height: 408px;
+    width: 296px;
+    background-color: #f5f5f5;
+    margin: 0px 0px 22px 0px;
+    padding: 2px;
+}
+
+.cardsSpace ul li:hover {
+    background-color: #37268C;
+    transition: 700ms;
+}
+
+.cardsSpace ul li:not(:hover) {
+    background-color: #f5f5f5;
+    transition: 600ms;
+}
+
+.produtoImg {
+    width: 100%;
+    height: 154px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.produtoTag {
+    width: 100%;
+    height: 59px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.produtoTag h5 {
+    margin: 0px;
+    background-color: #37268c;
+    color: white;
+    font-weight: 400;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    border-radius: 3px;
+}
+
+.produtoInfo {
+    background-color: white;
+    height: 150px;
+}
+
+.produtoInfo h3 {
+    margin: 0px 0px 15px 15px;
+}
+
+.produtoInfo p {
+    margin: 0px 12px 17px 15px;
+    line-height: 24px;
+}
+
+.produtoInfo span {
+    font-weight: 600;
+    margin: 0px 0px 15px 15px;
+    color: #2E245E;
+    ;
+}
+
+.addCarrinho {
+    background-color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: blue;
+}
+
+.addCarrinho button {
+    background: none;
+    color: #242424;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.addCarrinho button:hover {
+    background-color: #2E245E;
+    color: white;
+    padding: 3px 2px;
+    border-radius: 5px;
+    transition: 700ms;
+}
+
+.addCarrinho button:not(:hover) {
+    background-color: white;
+    color: #242424;
+    transition: 850ms;
+}
+
+.carrinho {
+    width: 347px;
+    height: 100%;
+}
+
+.barraPesquisa {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.barraPesquisa input {
+    width: 246px;
+    height: 50px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.barraPesquisa input:hover {
+    border: #37268C;
+}
+
+.barraPesquisa button {
+    background-color: #37268C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 90px;
+}
+
+.barraPesquisa button:hover {
+    border-radius: 8px;
+    transition: 800ms;
+    background-color: #F5F5F5;
+    color: #37268C;
+    border: solid 1px #37268C;
+    cursor: pointer;
+}
+
+.barraPesquisa button:not(:hover) {
+    background-color: #37268C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 800ms;
+}
+
+.carrinhoTitulo {
+    background-color: #37268C;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinhoTitulo h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.carrinho main {
+    background-color: #f5f5f5;
+    display: flex;
+    height: 396px;
+    justify-content: center;
+}
+
+.carrinho main h2 {
+    margin: 0px;
+}
+
+.carrinhoItens ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.carrinhoItens ul li {
+    width: 346px;
+    height: 92px;
+    background-color: transparent;
+    margin-top: 30px;
+    display: flex;
+}
+
+.carrinhoItemImg {
+    height: 92px;
+    width: 88px;
+    background-color: transparent;
+    margin: 0px 18px 0px 14px;
+}
+
+.carrinhoItemImg img {
+    height: 92px;
+    width: 88px;
+}
+
+.carrinhoItens ul li main {
+    display: block;
+    height: 92px;
+    width: 227px;
+    background-color: transparent;
+}
+
+.carrinhoItens ul li main h4 {
+    display: flex;
+    margin: 0px 0px 14px 0px;
+    color: #242424;
+}
+
+.carrinhoItens ul li main span {
+    font-weight: 600;
+    color: #2E245E;
+}
+
+.carrinhoItens ul li main div {
+    height: 25px;
+    width: 227px;
+    background-color: transparent;
+    margin-top: 13.5px;
+}
+
+.carrinhoItens ul li main div button {
+    background: none;
+    color: #242424;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 14px;
+}
+
+.qtdTotal {
+    background-color: aliceblue;
+    height: 100px;
+}
+
+.qtdTotal div h4 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.qtdTotal div span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.qtd {
+    height: 50%;
+    background-color: #292929;
+    color: white;
+    display: flex;
+    padding: 6px 24px 6px 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total {
+    height: 50%;
+    background-color: #292929;
+    color: white;
+    display: flex;
+    padding: 6px 24px 6px 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
